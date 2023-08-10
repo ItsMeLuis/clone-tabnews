@@ -1,10 +1,8 @@
 function Home() {
-  return (
-    <h1>
-      Clone Tab News, fazendo um processo de Deploy na internet. Desumano ter
-      que fazer o almoço hj.
-    </h1>
+  const content = (
+    <p>Olá, sou o Luis Henrique e em breve essa será a minha página.</p>
   );
+  return content;
 }
 
 export default Home;
